@@ -38,7 +38,7 @@ class Login extends Component {
     return (
       <div className="whiteText">
         <h2>Login</h2>
-          <form onSubmit={this.handleOnSubmit}>
+          <form inline="true" onSubmit={this.handleOnSubmit}>
             <FormGroup controlId="username">
             <ControlLabel>Username</ControlLabel>
             <FormControl
