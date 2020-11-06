@@ -1,0 +1,60 @@
+li.pborder {
+  /* background-image:  */
+  background-repeat: : no-repeat;
+  background-size: 12%;
+  background-position: left 15px top 15px;
+  border-radius: 15px;
+  border: 1px solid Black;
+  display: inline-block;
+  margin 20px;
+  padding: 24px 30px 16px 40px;
+  text-align: center;
+  width 300px;
+  box-shadow: 0 0 4px 0 Black;
+  background-color: Snow;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.bodymargin {
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 70px;
+  background-color: Black;
+  padding-top: 90px;
+}
+
+h1 {
+  font-family: "Palatino Linotype";
+  color: white;
+}
+
+h5 {
+  font-family: "Palatino Linotype";
+}
+
+li h3 {
+  font-family: "Palatino Linotype";
+}
+
+h4 {
+  font-family: "Palatino Linotype";
+}
+
+p {
+  font-family: "Palatino Linotype";
+}
+
+Button {
+  margin 8px 0 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .bodymargin {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  li.pborder {
+    width: auto;
+  }
+}

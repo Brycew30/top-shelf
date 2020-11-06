@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import UserBooks from '../UserBooks/UserBooks';
+import { connect } from 'react-redux';
+import './NYTbookList.css';
 
 class NYTbookList extends Component {
   state = {
