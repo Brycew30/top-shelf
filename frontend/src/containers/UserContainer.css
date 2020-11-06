@@ -1,0 +1,10 @@
+.image {
+  background-image: url('../images/Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+}
