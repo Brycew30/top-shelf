@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
+import { Button, FormGroup, FormControl, FormLabel } from 'react-bootstrap';
 
 class Login extends Component {
   state = {
@@ -40,7 +40,7 @@ class Login extends Component {
         <h2>Login</h2>
           <form inline="true" onSubmit={this.handleOnSubmit}>
             <FormGroup controlId="username">
-            <ControlLabel>Username</ControlLabel>
+            <FormLabel>Username</FormLabel>
             <FormControl
               autoFocus
               type="text"
@@ -50,7 +50,7 @@ class Login extends Component {
             />
             </FormGroup>
             <FormGroup controlId="password" bsSize="large">
-            <ControlLabel>Password</ControlLabel>
+            <FormLabel>Password</FormLabel>
             <FormControl
               type="password"
               placeholder="Password"
