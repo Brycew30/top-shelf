@@ -1,0 +1,109 @@
+.fmargin {
+  /* background-image:  */
+  background-repeat: no-no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 55px;
+}
+
+.nmargin {
+  /* background-image:  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 55px;
+}
+
+.smargin {
+  /* background-image:  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 55px;
+}
+
+.card {
+  background-color: snow;
+  opacity: 0.8;
+  padding-bottom: 10px;
+  width: 60%;
+  left: 20%;
+}
+
+.card > h6 {
+  color: black;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.card > h5 {
+  color: black;
+}
+
+.card > h3 {
+  color: black;
+  font-family: "Palatino Linotype";
+}
+
+.card > h1 {
+  color: black;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 450px) {
+  .card > h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 10px 2px 0px;
+    font-size: 28px;
+  }
+
+  .card > h6 {
+    padding: 0 10px;
+  }
+
+  .card > h5 {
+    font-size: 18px;
+  }
+
+  .card > h3 {
+    font-size: 26px;
+  }
+
+  .card {
+    width: 100%;
+    left: 0;
+  }
+
+  .fmargin {
+    /* background-image:  */
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 0;
+  }
+
+  .nmargin {
+    /* background-image:  */
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 0;
+  }
+
+  .smargin {
+    /* background-image:  */
+    background-repeat: repeat;
+    background-size: contain;
+    padding-top: 0;
+  }
+}
