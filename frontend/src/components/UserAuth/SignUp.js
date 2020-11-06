@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
+import { Button, FormGroup, FormControl, FormLabel } from 'react-bootstrap';
 
 class SignUp extends Component {
   state = {
@@ -53,7 +53,7 @@ class SignUp extends Component {
           />
           </FormGroup>
           <FormGroup controlId="password" bsSize="large">
-            <ControlLabel>Password</ControlLabel>
+            <FormLabel>Password</FormLabel>
             <FormControl
               placeholder="Password"
               type="password"
@@ -62,7 +62,7 @@ class SignUp extends Component {
             />
           </FormGroup>
           <FormGroup controlId="passwordConfirmation" bsSize="large">
-            <ControlLabel>Password Confirmation</ControlLabel>
+            <FormLabel>Password Confirmation</FormLabel>
             <FormControl
               placeholder="Confirm Password"
               type="password"
