@@ -1,5 +1,5 @@
 .error {
-  background-color: pink;
+  background-color: IndianRed;
   position: fixed;
   width: 100%;
   box-shadow: 3px 3px 3px 3px white;
@@ -11,27 +11,28 @@
 }
 
 .success {
-  background-color: cyan;
+  background-color: Green;
   position: fixed;
   width: 100%;
-  border-color: green;
+  border-color: DarkGreen;
   opacity: 0.7;
   box-shadow: 0 3px 3px 0 white;
   padding-top: 10px;
   padding-right: 5px;
   margin-top: 60px;
   font-weight: bolder;
+  color: white;
 }
 
 .error button {
   opacity: .9;
   float: right;
-  background-color: pink;
+  background-color: DarkRed;
   border: none;
 }
 
 .success button {
-  background-color: cyan;
+  background-color: DarkGreen;
   opacity: .9;
   float: right;
   border: none;

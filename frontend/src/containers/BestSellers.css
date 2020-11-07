@@ -1,5 +1,6 @@
 .fmargin {
   /* background-image:  */
+  background-color: PowderBlue;
   background-repeat: no-no-repeat;
   background-size: cover;
   background-position: center;
@@ -12,6 +13,7 @@
 
 .nmargin {
   /* background-image:  */
+  background-color: CadetBlue;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -24,6 +26,7 @@
 
 .smargin {
   /* background-image:  */
+  background-color: DarkSeaGreen;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

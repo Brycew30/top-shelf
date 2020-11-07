@@ -10,13 +10,13 @@ class BookComments extends Component {
     event.preventDefault();
     const book = this.props.book
     book.comment = this.state.comment
-    this.setState({note: ""})
-    this.props.setShowBookCommentComponent(!this.props.showBookCommentComponent)
+    this.setState({comment: ""})
+    this.props.setShowBookCommentsComponent(!this.props.showBookCommentComponent)
     this.props.addBookComment(book)
   }
 
   handleCommentChange = event => {
-    this.setState({note: event.target.value})
+    this.setState({comment: event.target.value})
   }
 
   render() {

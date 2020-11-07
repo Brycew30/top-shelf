@@ -4,6 +4,7 @@ import { logInForRefresh } from '../../actions/UserActions';
 import UserBookCard from './UserBookCard';
 import SearchBar from '../SearchBar';
 import { connect } from 'react-redux';
+import './UserBooks.css';
 
 class UserBooks extends Component {
   state = {
@@ -25,10 +26,6 @@ class UserBooks extends Component {
     }
   }
 
-  onAlph = () => {
-    this.setState({sort: !this.state.sort})
-  }
-
   render() {
     const booksList = this.props.books.length > 0 ? this.props.books.filter(this.filterIt(this.state.term)).map(book => {return (<UserBookCard
     key={book.id}
@@ -40,11 +37,12 @@ class UserBooks extends Component {
   ) : <h5 className="white">You don't have any books saved to your list! Click on a book card to save the book.</h5>
     return (
       <div className="userBooks" style={this.props.display}>
+        <br></br>
         <h1>{this.props.username}'s Books</h1>
         <SearchBar getSearch={this.getSearch} />
         <br></br>
           { booksList }
-      </div>
+          </div>
     );
   }
 

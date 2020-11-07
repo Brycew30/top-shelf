@@ -6,7 +6,7 @@ const BookCommentForm = (props) => {
     <form onSubmit={props.onSubmitComment} style={props.display}>
       <textarea type="text" placeholder={props.placeholderText} value={props.comment} onChange={props.handleCommentChange}></textarea>
       <br/>
-      <Button bsStyle="info" type="submit">{props.submitText}</Button>
+      <Button variant="success" type="submit">{props.submitText}</Button>
     </form>
   )
 }

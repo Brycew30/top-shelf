@@ -1,18 +1,19 @@
 .userBooks {
-  background-image: url('../../images/UserBooks.jpg');
+  /* background-image: url('../../images/Background.jpg'); */
+  background-color: Linen;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: auto;
+  height: 100vh;
   width: 100%;
-  padding-top: 60px;
-  text-align: center;
-  padding-bottom: 70px;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .userBooks > h1 {
   padding-top: 30px;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px white;
+  color: black;
 }
 
 .userBooks h6 {

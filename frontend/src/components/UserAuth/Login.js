@@ -49,7 +49,7 @@ class Login extends Component {
               onChange={this.handleOnChange}
             />
             </FormGroup>
-            <FormGroup controlId="password" bsSize="large">
+            <FormGroup controlId="password">
             <FormLabel>Password</FormLabel>
             <FormControl
               type="password"
@@ -59,9 +59,9 @@ class Login extends Component {
             />
             </FormGroup>
             <Button
-              bsStyle="info"
+              variant="success"
               block
-              bsSize="large"
+              size="large"
               disabled={!this.validateForm()}
               type="submit"
             >Login</Button>
@@ -69,9 +69,9 @@ class Login extends Component {
           <hr />
             <Button
               onClick={(event) => {this.handleSignUp(event)}}
-              bsStyle="link"
+              variant="info"
               block
-              bsSize="small"
+              size="small"
               type="submit"
             >Sign Up</Button>
       </div>

@@ -52,7 +52,7 @@ class SignUp extends Component {
             onChange={this.handleOnChange}
           />
           </FormGroup>
-          <FormGroup controlId="password" bsSize="large">
+          <FormGroup controlId="password">
             <FormLabel>Password</FormLabel>
             <FormControl
               placeholder="Password"
@@ -61,7 +61,7 @@ class SignUp extends Component {
               onChange={this.handleOnChange}
             />
           </FormGroup>
-          <FormGroup controlId="passwordConfirmation" bsSize="large">
+          <FormGroup controlId="passwordConfirmation">
             <FormLabel>Password Confirmation</FormLabel>
             <FormControl
               placeholder="Confirm Password"
@@ -71,9 +71,9 @@ class SignUp extends Component {
             />
           </FormGroup>
           <Button
-            bsStyle="info"
+            variant="info"
             block
-            bsSize="large"
+            size="large"
             disabled={!this.validateForm()}
             type="submit"
           >Sign Up</Button>
