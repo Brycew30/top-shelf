@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import UserBooks from '../UserBooks/UserBooks';
 import { connect } from 'react-redux';
 import './NYTbookList.css';
+import BestSellers from '../../containers/BestSellers';
+import BookGenreDropDown from '../BookGenreDropDown';
+import ShowMyBooksButton from '../Button/ShowMyBooksButton';
 
 class NYTbookList extends Component {
   state = {
