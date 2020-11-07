@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './BestSellers.css';
 import NYTbookCard from '../components/NYTbooks/NYTbookCard';
-import { postBook, setGenre, getNytBooks } from '../actions/bookActions';
-import { addAlertMessage } from '../actions/alertActions';
+import { postBook, setGenre, getNytBooks } from '../actions/BookActions';
+import { addAlertMessage } from '../actions/AlertActions';
 import { connect } from 'react-redux';
 
 class BestSellers extends Component {
