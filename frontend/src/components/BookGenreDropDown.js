@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import {setGenre, getNytBooks } from '../actions/bookActions';
+import {setGenre, getNytBooks } from '../actions/BookActions';
 import './BookGenreDropDown.css';
 
 class BookGenreDropDown extends Component {
