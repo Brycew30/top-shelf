@@ -1,0 +1,50 @@
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px 0 black;
+  z-index: 500;
+}
+
+.navbar {
+  width: 100%;
+}
+
+header img {
+  height: 52px;
+}
+
+header * {
+  display: inline
+}
+
+header li {
+  margin-right: 20px;
+}
+
+header li:last-child {
+  margin-right: 0px;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  ul {
+    padding-left: 0px;
+  }
+  header li {
+    display: none;
+    margin-right: 15px;
+  }
+  header li:nth-child(1),header li:nth-child(5),header li:nth-child(6) {
+    display: inline-block;
+  }
+}
