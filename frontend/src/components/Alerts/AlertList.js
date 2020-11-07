@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AlertMessage from './AlertMessage';
 import { connect } from 'react-redux';
-import { deleteAlertMessage } from '../../actions/alertActions';
+import { deleteAlertMessage } from '../../actions/AlertActions';
 
 class AlertList extends Component {
 
